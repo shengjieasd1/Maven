@@ -19,13 +19,13 @@ public class TestMessageController {
     @Resource
     private MessageController messageController;
     
-    @Test
-    public void testEcho(){
-        System.out.println(this.messageController.echo("mldjava"));
-    }
-
-    @Test
-    public void testIndex(){
-        System.out.println(this.messageController.index());
-    }
+    //@Test
+    //public void testEcho(){
+    //    System.out.println(this.messageController.echo("mldjava"));
+    //}
+    //
+    //@Test
+    //public void testIndex(){
+    //    System.out.println(this.messageController.index());
+    //}
 }
