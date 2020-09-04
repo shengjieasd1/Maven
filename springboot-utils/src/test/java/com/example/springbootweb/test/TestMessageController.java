@@ -24,4 +24,8 @@ public class TestMessageController {
         System.out.println(this.messageController.echo("mldjava"));
     }
 
+    @Test
+    public void testIndex(){
+        System.out.println(this.messageController.index());
+    }
 }
