@@ -16,6 +16,14 @@ import java.util.Iterator;
 
 @Controller
 public class MemberController extends AbstractBaseController {
+    @RequestMapping(value = "/get")
+    @ResponseBody
+    public String get(){
+        System.out.println("除法计算："+(10/0));
+        return "hello world";
+    }
+    
+    
     
     @RequestMapping(value = "/addPre", method = RequestMethod.GET)
     public String addPre(){ //增加前的准备操作路径。
