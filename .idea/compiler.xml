@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-error" />
+        <module name="spring_active" />
+        <module name="springboot-utils" />
         <module name="spring-error" />
         <module name="springboot-web" />
-        <module name="springboot-utils" />
+        <module name="springboot-upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,7 +21,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-error" options="-parameters" />
+      <module name="spring_active" options="-parameters" />
       <module name="springboot-error" options="-parameters" />
+      <module name="springboot-upload" options="-parameters" />
       <module name="springboot-utils" options="-parameters" />
       <module name="springboot-web" options="-parameters" />
     </option>
