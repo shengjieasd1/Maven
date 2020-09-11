@@ -2,7 +2,9 @@ package com.example.springbootupload.service.impl;
 
 import com.example.springbootupload.service.IMemberService;
 import com.example.springbootupload.vo.Member;
+import org.springframework.stereotype.Service;
 
+@Service
 public class MemberServiceImpl implements IMemberService {
     @Override
     public String get(long mid) {
